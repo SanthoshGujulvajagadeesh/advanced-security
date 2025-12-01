@@ -16,7 +16,7 @@ static int cujoagent_socket_init(cujoagent_wifi_consumer_t *consumer) {
     msg = "Socket path strdup failed";
     goto err;
   }
-
+//test2
   cmd = v_secure_system("mkdir -p %s", dirname(socket_path));
   free(socket_path);
 
